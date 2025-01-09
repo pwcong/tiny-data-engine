@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+.toolbar {
+  padding: 8px;
+  text-align: center;
+}
+
+.diff {
+  padding: 8px;
+  font-size: 12px;
+  height: 20vh;
+  overflow: auto;
+}
+
+.draft {
+  padding: 8px;
+  font-size: 12px;
+  height: 50vh;
+  overflow: auto;
+}
+
+button {
+  margin: 4px 8px;
+}

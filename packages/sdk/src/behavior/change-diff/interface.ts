@@ -3,7 +3,7 @@ import { IDataView } from '@/data-engine';
 import { NodeModel, NodeModelDelta } from '@/model';
 
 export enum EChangeType {
-  Node = 'Node',
+  Node = 'node',
 }
 
 export enum EOperationType {

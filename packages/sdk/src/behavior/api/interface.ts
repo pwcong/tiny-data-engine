@@ -33,7 +33,7 @@ export interface INodeBehaviorApi {
 }
 
 export interface IBatchBehaviorApi {
-  batchStart: () => void;
+  batchStart: () => string;
   batchEnd: (taskId: string) => void;
 }
 
